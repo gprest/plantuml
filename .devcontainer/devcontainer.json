@@ -22,7 +22,8 @@
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	// https://code.visualstudio.com/docs/remote/containers#_forwarding-or-publishing-a-port
+	"forwardPorts": [ 18080 ],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "docker --version",
