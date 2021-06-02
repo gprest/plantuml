@@ -18,12 +18,13 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"ms-azuretools.vscode-docker"
+		"ms-azuretools.vscode-docker",
+		"jebbs.plantuml"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// https://code.visualstudio.com/docs/remote/containers#_forwarding-or-publishing-a-port
-	"forwardPorts": [ 18080 ],
+	"forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "docker --version",
